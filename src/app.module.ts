@@ -13,10 +13,10 @@ import { Autor } from './autor/entities/autor.entity';
     TypeOrmModule.forRoot({
       type: "mysql",
       host: "localhost",
-      port: 3308,
-      username: "user",
-      password: "12A34B56C",
-      database: "db_crud",
+      port: , //portDatabase
+      username: ""//user,
+      password: "" //password,
+      database: "" name dB,
       autoLoadEntities: true,
       synchronize: true,
       entities:[Book, Editorial, Autor]
