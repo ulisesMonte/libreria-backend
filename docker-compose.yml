@@ -1,14 +1,13 @@
-version: "3.8"
 services:
   mysql:
     image: mysql:8.0
     container_name: mysql_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: db_crud
-      MYSQL_USER: user  
-      MYSQL_PASSWORD: 12A34B56C
+      MYSQL_ROOT_PASSWORD: //mysq_passwordd
+      MYSQL_DATABASE:  //database name 
+      MYSQL_USER: //useDb
+      MYSQL_PASSWORD: //passwordDb
     volumes:
       - ./mysql:/var/lib/mysql
     ports:
